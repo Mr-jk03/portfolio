@@ -1,0 +1,116 @@
+:root{
+    --space-mono-text-color: #38b6ff;
+    --front-end:#38b6ff;
+    --detail-fe:#fff;
+}
+
+
+.online-wapper{
+    height: 150vh;
+    width: 100%;
+    padding-bottom: 95px;
+    background-image: url(../../public/bg.png);
+    background-size: cover;
+}
+
+
+.content-online{
+    height: 100%;
+    width: 100%;
+    padding-top:99px;
+}
+
+.main-content{
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text{
+    height: auto;
+    width: 100%;
+}
+.content-text span{
+    font-family: "Space Mono", monospace;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--space-mono-text-color);
+}
+.content-text h1{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #d9d9d9;
+    margin-top: 17px;
+}
+
+.front-end{
+    width: auto;
+    height: 35px;
+    padding: 5px 25px;
+    background-color: var(--front-end);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    animation: flashBackground 1.5s infinite;
+}
+.front-end span{
+    color: aliceblue;
+} 
+
+.detail-fe{
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    margin-top: 30px;
+}
+.detail-fe span{
+    color: var(--detail-fe);
+}
+
+/*----img*/
+
+
+.content-img{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img img{
+    height: auto;
+    width: 85%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), 
+    5px 5px 10px rgba(0, 0, 0, 0.2),  
+    1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+
+@keyframes flashBackground {
+    0%, 5% {
+        background-color: #386bff; 
+    }
+    10%, 40% {
+        background-color: #da1df8;
+    }
+    45%, 50% {
+        background-color: #386bff; 
+    }
+    55%, 100% {
+        background-color: #da1df8;
+    }
+}
+

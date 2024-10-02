@@ -1,0 +1,70 @@
+.project-wrapper{
+    height: auto;
+    width: 100%;
+    padding-bottom: 95px;
+    background-image: url(../../public/bg.png);
+    background-size: cover;
+}
+.main-project{
+    height: 100%;
+    width: 100%;
+    padding-top: 99px;
+}
+
+.pr-l{
+    padding: 10px;
+}
+
+.pr-h1-l{
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+}
+
+.pr-border{
+    height: 5px;
+    width: 231px;
+    background-color: #38d6bb;
+}
+
+.pr-r{
+    padding: 10px;
+}
+
+
+.pr-h1-r{
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    background: transparent; 
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 1px white;  
+    font-size: 64px;                 
+    font-weight: bold;               
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.pr-img{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.pr-img img{
+    height: auto;
+    width: 100%;
+}
+.pr-detail{
+    height: auto;
+    width: 90%;
+    margin: 5px auto;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.pr-detail h3{
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+}
+.pr-detail h3, span{
+    color: #38d6bb;
+}

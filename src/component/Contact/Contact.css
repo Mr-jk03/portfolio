@@ -1,0 +1,103 @@
+.contact-wrapper{
+    height: auto;
+    width: 100%;
+    padding-bottom: 95px;
+    background-image: url(../../public/bg.png);
+    background-size: cover;
+}
+.main-contact{
+    height: 100%;
+    width: 100%;
+    padding-top: 99px;
+}
+.get-touch{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+.get-touch h1{
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+}
+.get-touch span{
+    color: #38d6ff;
+    font-family: "Space Mono", monospace;
+    font-style: italic;
+}
+.ct-main-icon{
+    color: #fff;
+    margin-top: 100px;
+}
+.detail-contact{
+    height: 145px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-contact i{
+    font-size: 90px;
+    color: #38d6ff;
+}
+
+.detail-contact-text{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+}
+
+.detail-contact-text h5{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.detail-contact-text span a{
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    animation: flashColor 1.5s infinite;
+}
+
+.ct-h1-r {
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    background: linear-gradient(270deg, #38b6ff, #da1df8, #38b6ff);
+    background-size: 300% 300%; 
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 1px white;  
+    font-size: 64px;                 
+    font-weight: bold;               
+    text-align: center;
+    animation: gradientFlow 3s linear infinite; 
+}
+
+
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%; 
+    }
+}
+@keyframes flashColor {
+    0%, 10% {
+        color: #f5f6fa; 
+    }
+    20%, 40% {
+        color: #da1df8; 
+    }
+    50%, 70% {
+        color: #f8f9fa; 
+    }
+    80%, 100% {
+        color: #da1df8; 
+    }
+}

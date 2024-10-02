@@ -1,0 +1,70 @@
+.education-wapper{
+    height: auto;
+    width: 100%;
+    padding-bottom: 95px;
+    background-image: url(../../public/bg.png);
+    background-size: cover;
+}
+.main-education{
+    height: 100%;
+    width: 100%;
+    padding-top: 99px;
+}
+.edu-left{
+    height: auto;
+    padding: 20px;
+}
+.edu-h1-l{
+    margin-top: 45px;
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+}
+.border-edu{
+    height: 5px;
+    width: 231px;
+    background-color: #38d6ff;
+    margin-bottom: 30px;
+}
+.span-edu{
+    width: auto;
+    font-family: "League Spartan", sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+.edu-right{
+    height: auto;
+    padding: 20px;
+}
+.edu-h1-r{
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    background: transparent; 
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 1px white;  
+    font-size: 64px;                 
+    font-weight: bold;               
+    text-align: center; 
+    margin-bottom: 15px;
+}
+.edu-detail{
+    height: auto;
+    width: 100%;  
+    margin: 15px 0;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.edu-detail img{
+    height: 90px;
+    width: auto;
+}
+
+.edu-detail-text{
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    margin-left: 15px;
+}
+.edu-detail-text h4{
+    font-weight: bold ;
+}

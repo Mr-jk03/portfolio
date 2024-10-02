@@ -1,0 +1,113 @@
+:root{
+    --nav-color:#1098e7;
+    --color-active: #f8f8f9;
+    --menu-icon-color: #099bf0;
+    --color-menu-mobile: #099bf0;
+}
+
+
+
+.navbar{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    padding: 30px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.navbar.scrolled{
+    background-color: #03293f;
+}
+.main-navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.item a{
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    color: #06e6fb;
+}
+
+
+.active{
+    border-bottom: 2px solid var(--color-active);
+    /* color: var(--nav-color); */
+    background-color: #045280;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.menu-mobile{
+    height: 45px;
+    width: 100%;
+    position: relative;
+}
+
+.icon-menu{
+    font-size: 27px;
+    color: var(--menu-icon-color);
+}
+
+
+.main-menu{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-362px);
+    opacity: 0;
+}
+.main-menu li{
+    list-style: none;
+    height: 45px;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #fdffffcb;
+    text-align: center;
+    line-height: 34px;
+}
+.main-menu li:active{
+    background-color: var(--color-active);
+}
+.main-menu li:nth-child(1){
+    text-align: end;
+}
+.main-menu li i{
+    font-size: 27px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: var(--color-menu-mobile);
+    font-family: "Space Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+@media (max-width:767px){
+    .main-navbar{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        justify-content: end;
+    }
+}
+@media(min-width: 768px){
+    .main-navbar{
+        display: flex;
+    }
+    .menu-mobile{
+        display: none;
+    }
+}

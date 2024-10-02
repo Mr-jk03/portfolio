@@ -1,0 +1,60 @@
+
+.wrapper{
+    height: 208vh;
+    width: 100%;
+    background-image: url(../../public/bg.png);
+    padding-bottom: 95px;
+    background-size: cover;
+}
+.main-about{
+    height: 100%;
+    width: 100%;
+    padding-top: 99px;
+}
+
+.avata{
+    height: 556px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avata img{
+    height: 100%;
+    width: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), 
+                5px 5px 10px rgba(0, 0, 0, 0.2),  
+                1px 1px 5px rgba(0, 0, 0, 0.1);   
+    border-radius: 10px; 
+}
+.about-text{
+    padding: 10px;
+    font-family: "League Spartan", sans-serif;
+    color: #fff;
+}
+.border-div{
+    height: 5px;
+    width: 253px;
+    background-color: #38d6ff;
+    margin-bottom: 20px;
+}
+.about-span{
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+.h1-child2{
+    margin-top: 15px;
+}
+.skill-itr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill-itr div{
+    height: 35px;
+    width: auto;
+    padding: 5px 15px;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+    border: 3px solid #38d6ff;
+    border-radius: 20px;
+}
