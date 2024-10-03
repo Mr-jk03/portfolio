@@ -94,6 +94,7 @@
     font-weight: 600;
 }
 
+
 @media (max-width:767px){
     .main-navbar{
         display: none;
