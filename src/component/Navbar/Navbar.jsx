@@ -40,8 +40,8 @@ const Navbar = () => {
             <div className='container'>
                 <div className="row main-navbar">
                     <div className="col-lg-2 col-md-2 item item-name">
-                        <Link to='/onlineportfolio' 
-                              className={activeLink === '/onlineportfolio' ? 'active' : ''}
+                        <Link to='/' 
+                              className={activeLink === '/' ? 'active' : ''}
                               onClick={() => handleClick('/')}
                         >
                             welcome !!!

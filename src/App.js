@@ -16,12 +16,13 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/onlineportfolio' element={<Onlineportfolio/>}/>
+          <Route path='/' element={<Onlineportfolio/>}/>
           <Route path='/about' element={<About />} />
           <Route path='/education' element={<Education />}/>
           <Route path='/experience' element={<Experience />}/>
           <Route path='/contact' element={<Contact />}/>
           <Route path='/project' element={<Project />}/>
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
       
